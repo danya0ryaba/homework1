@@ -1,31 +1,18 @@
-.friendMessage {
+.friendMessage {}
 
-}
-
-.friendImageAndText {
-
-}
+.friendImageAndText {}
 
 .friendImageAndText img {
-
+    max-width: 100px;
+    max-height: 100px;
 }
 
-.friendText {
+.friendText {}
 
-}
+.friendText:after {}
 
-.friendText:after {
+.friendName {}
 
-}
+.friendMessageText {}
 
-.friendName {
-
-}
-
-.friendMessageText {
-
-}
-
-.friendTime {
-
-}
+.friendTime {}
