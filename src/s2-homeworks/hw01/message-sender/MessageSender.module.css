@@ -1,20 +1,23 @@
 .sendForm {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 32px;
 }
 
-/* надо переписать езе стили дляMessage.module.css text тк при отправке большого сообщения получается дичь */
 .textarea {
+    padding: 12px 24px;
     overflow: hidden;
-    height: 100%;
+    font-size: 20px;
     outline: none;
     resize: none;
     box-shadow: 0px 5px 20px rgba(29, 33, 38, 0.03), 0px 1px 2px rgba(29, 33, 38, 0.1);
     border-radius: 20px;
-    max-height: 40px;
     width: 976px;
 }
 
+.textarea::placeholder {
+    font-size: 20px;
+}
 
 .button {
     border: 0;
@@ -27,10 +30,13 @@
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
+    transition: background 0.1s linear;
 }
 
 .button:hover {
     cursor: pointer;
+    background: #d8e1ea;
+    color: rgba(15, 16, 15, 0.611)
 }
 
 .button:active {}

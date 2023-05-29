@@ -34,7 +34,7 @@ export const message0: MessageType = {
         name: 'Archie Moore',  // можно менять
     },
     message: {
-        text: 'Helo, she didnt do anythinf and rested al day, how are you?', // можно менять
+        text: 'Helo, she didnt do anythinf and rested al day, how are you? ', // можно менять
         time: '22:05', // можно менять
     },
 }
@@ -65,6 +65,7 @@ const HW1 = () => {
                 {/*для автоматической проверки дз (не менять)*/}
                 <MessageSender M={Message} />
             </div>
+            <hr />
         </div>
     )
 }

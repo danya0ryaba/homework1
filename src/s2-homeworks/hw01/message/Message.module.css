@@ -6,7 +6,6 @@
 .imageAndText {
     display: flex;
     justify-content: flex-end;
-
 }
 
 .imageAndText img {
@@ -19,6 +18,9 @@
 }
 
 .text {
+    overflow: auto;
+    /* max-width: 620px; */
+
     order: 1;
     border-radius: 12px;
     background-color: #0066CC;
@@ -49,7 +51,8 @@
 }
 
 .messageText {
-    text-align: right;
+    word-wrap: break-word;
+    text-align: left;
     white-space: pre-wrap;
     font-family: 'Montserrat' sans-serif;
     font-style: normal;
