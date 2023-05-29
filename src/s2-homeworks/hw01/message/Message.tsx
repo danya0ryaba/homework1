@@ -24,7 +24,7 @@ const Message = (props: MessagePropsType) => {
                 <img
                     id={'hw1-avatar-' + props.message.id}
                     // создаёт студент
-                    src='https://round7.ru/image/cache/data/statii/archie-moore/moore-0-600x600.jpg'
+                    src={props.message.user.avatar}
                 //
                 />
                 <div className={s.text}>

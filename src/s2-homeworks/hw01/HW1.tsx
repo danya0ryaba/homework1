@@ -34,7 +34,7 @@ export const message0: MessageType = {
         name: 'Archie Moore',  // можно менять
     },
     message: {
-        text: 'some textsome textsome textsome textsome textsome textsome text', // можно менять
+        text: 'Helo, she didnt do anythinf and rested al day, how are you?', // можно менять
         time: '22:05', // можно менять
     },
 }
