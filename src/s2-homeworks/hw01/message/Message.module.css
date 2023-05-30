@@ -6,21 +6,23 @@
 .imageAndText {
     display: flex;
     justify-content: flex-end;
+    position: relative;
 }
 
 .imageAndText img {
-    margin: auto 0;
     order: 2;
-    display: inline-block;
+    position: absolute;
+    bottom: 0;
     border-radius: 100%;
     width: 48px;
     height: 48px;
 }
 
 .text {
-    overflow: auto;
-    /* max-width: 620px; */
-
+    /* overflow: auto; */
+    max-width: 60%;
+    position: relative;
+    margin-right: 62px;
     order: 1;
     border-radius: 12px;
     background-color: #0066CC;
@@ -30,15 +32,16 @@
 }
 
 .text:after {
-    /* content: '';
+    content: '';
+    display: block;
+    position: absolute;
+    right: -10px;
+    bottom: 0;
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 10px 0 0 10px;
-    border-color: transparent transparent transparent #007bff;
-    line-height: 0px;
-    _border-color: #000000 #000000 #000000 #007bff;
-    _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000'); */
+    border-width: 16px 0 0 20px;
+    border-color: transparent transparent transparent #0066CC;
 }
 
 .name {
