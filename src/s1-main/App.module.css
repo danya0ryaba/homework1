@@ -2,6 +2,8 @@
     --header_height: 60px;
     width: 100%;
     margin: 0 auto;
+    margin-bottom: 80px;
+    /**/
 }
 
 .hw {
@@ -9,6 +11,7 @@
     margin: 0 auto;
     width: 100%;
     max-width: 1160px;
+
 }
 
 hr {
@@ -17,7 +20,7 @@ hr {
 }
 
 .hwTitle {
-    margin-top: 131px;
+    margin-top: 50px;
     margin-left: 70px;
     margin-bottom: 10px;
     font-size: 22px;
@@ -26,4 +29,8 @@ hr {
     line-height: 26.82px;
     font-weight: 600;
     color: #000000;
+}
+
+.hw2 {
+    margin-bottom: 60px;
 }
