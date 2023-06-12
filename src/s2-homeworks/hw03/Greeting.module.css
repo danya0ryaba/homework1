@@ -47,7 +47,7 @@
 .button {
     max-height: 36px;
     margin-left: 12px;
-    opacity: 0.5;
+    /* opacity: 0.5; */
     border-radius: 3px;
     padding: 5px 24px;
     background-color: #0066CC;
@@ -64,7 +64,9 @@
 
 .button:active {}
 
-.button:disabled {}
+.button:disabled {
+    opacity: 0.5;
+}
 
 .text {
     font-weight: 400;
