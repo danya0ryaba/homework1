@@ -1,20 +1,27 @@
-.input:focus {
-}
+.input:focus {}
 
 .input {
+    width: 372px;
+    height: 36px;
+    border-radius: 5px;
+    border: 1px solid #D1D1D1;
 }
 
-.inputWrapper {
-}
+.inputWrapper {}
 
-.superInput {
-}
+.superInput {}
 
 .errorInput {
+    position: relative;
+    border: 1px solid red;
 }
 
-.errorInput:focus {
-}
+.errorInput:focus {}
 
 .error {
+    font-size: 10px;
+    position: absolute;
+    left: 0;
+    top: 66px;
+    color: red;
 }

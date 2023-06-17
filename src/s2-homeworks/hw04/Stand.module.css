@@ -1,19 +1,19 @@
 .stand {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .inputs {
     display: flex;
     flex-direction: column;
     gap: 48px;
+    margin-right: 134px;
 }
 
 .buttons {
     display: flex;
     flex-direction: column;
     gap: 24px;
+    margin-right: 314px;
 }
 
 .checkboxes {
