@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import s from './Stand.module.css'
 import SuperInputText from './common/c1-SuperInputText/SuperInputText'
-import SuperCheckbox from './common/c3-SuperCheckbox/SuperCheckbox'
+import SuperCheckbox, { DefaultInputPropsType } from './common/c3-SuperCheckbox/SuperCheckbox'
 import SuperButton from './common/c2-SuperButton/SuperButton'
 
 const Stand = () => {
@@ -95,3 +95,4 @@ const Stand = () => {
 }
 
 export default Stand
+
