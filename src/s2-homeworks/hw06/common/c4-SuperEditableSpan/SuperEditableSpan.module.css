@@ -1,11 +1,24 @@
 .spanBlock {
+    position: relative;
 }
 
 .span {
+    position: absolute;
+    left: 34px;
+    bottom: 4px;
+    font-family: Montserrat, sans-serif;
+    color: rgba(0, 128, 255, 1);
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .input {
+    max-width: 276px;
+    max-height: 36px;
+    padding-left: 24px;
 }
 
 .pen {
+    max-width: 24px;
+    max-height: 24px;
 }
